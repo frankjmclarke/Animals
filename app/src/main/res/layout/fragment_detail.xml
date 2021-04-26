@@ -7,10 +7,10 @@
     <data>
         <variable
                 name="animal"
-                type="com.devtides.animals.model.Animal"/>
+                type="com.fclarke.animals.model.Animal"/>
         <variable
                 name="palette"
-                type="com.devtides.animals.model.AnimalPalette"/>
+                type="com.fclarke.animals.model.AnimalPalette"/>
     </data>
 
     <LinearLayout
@@ -55,6 +55,15 @@
                 style="@style/Text"
                 android:layout_margin="4dp"
                 android:text="@{animal.diet}"/>
-
+<!-- Educational Purposes -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:src="@drawable/ic_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/buttonList"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginBottom="33dp" />
     </LinearLayout>
 </layout>

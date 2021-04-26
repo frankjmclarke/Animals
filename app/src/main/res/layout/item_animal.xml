@@ -6,10 +6,10 @@
     <data>
         <variable
                 name="animal"
-                type="com.devtides.animals.model.Animal"/>
+                type="com.fclarke.animals.model.Animal"/>
         <variable
                 name="listener"
-                type="com.devtides.animals.view.AnimalClickListener"/>
+                type="com.fclarke.animals.view.AnimalClickListener"/>
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
