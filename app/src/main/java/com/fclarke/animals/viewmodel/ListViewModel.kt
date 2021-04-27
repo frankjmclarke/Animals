@@ -40,7 +40,7 @@ class ListViewModel(application: Application) : AndroidViewModel(application) {
     private var injected = false
 
     fun inject() {
-        if (!injected) {
+        if (!injected) {  //not during test
             DaggerViewModelComponent.builder()
                 .appModule(AppModule(getApplication()))
                 .build()

@@ -3,7 +3,7 @@ package com.fclarke.animals
 import android.app.Application
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.fclarke.animals.di.modules.AppModule
-import com.fclarke.animals.di.DaggerViewModelComponent
+import com.fclarke.animals.di.components.DaggerViewModelComponent
 import com.fclarke.animals.model.Animal
 import com.fclarke.animals.model.AnimalApiService
 import com.fclarke.animals.model.ApiKey
